@@ -4,7 +4,12 @@ import numpy as np
 def rand(a=0, b=1):
     return np.random.rand()*(b-a) + a
 def get_random_resize(image, label, input_shape, jitter=.3, hue=.1, sat=1.5, val=1.5):
-    # 输入image为jpg原图，label是png标签图片
+    # 输入image为jpg原图，label是png标签图片都是用Image.open()打开，打开后仅保留一维色彩，一个像素点只有一个数值
+    
+    
+    # 使用labelme制作的png的标签图片u能用cv2打开，mpimg打开后是一维数值，cv2打开是被分解了的
+    # 比如labelme制作的png其中一个像素为3，在cv2打开就是[0,128,128]
+    # 用arcgis制作的tif文件cv2打开rgb都一样，也和mpimg一样
     label = Image.fromarray(np.array(label))
     h, w = input_shape
     # resize image
