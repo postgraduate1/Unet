@@ -60,5 +60,23 @@ def get_random_resize(image, label, input_shape, jitter=.3, hue=.1, sat=1.5, val
     image_data = cv2.cvtColor(x, cv2.COLOR_HSV2RGB)
     return image_data,label
 
+def letterbox_image(image, label, size):
+    # 输入为Image.open(image_path)，Image.open(Label_path)
+    label = Image.fromarray(np.array(label))
 
-    
+    '''resize image with unchanged aspect ratio using padding'''
+    iw, ih = image.size
+    w, h = size
+    scale = min(w/iw, h/ih)
+    nw = int(iw*scale)
+    nh = int(ih*scale)
+
+    image = image.resize((nw, nh), Image.BICUBIC)
+    new_image = Image.new('RGB', size, (128, 128, 128))
+    new_image.paste(image, ((w-nw)//2, (h-nh)//2))
+
+    label = label.resize((nw, nh), Image.NEAREST)
+    new_label = Image.new('L', size, (0))
+    new_label.paste(label, ((w-nw)//2, (h-nh)//2))
+    return new_image, new_label
+
