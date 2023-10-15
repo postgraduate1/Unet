@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T01:45:35.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="m-bsCCjrzajFFrhy_X4h" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T02:57:49.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="Jre5VP38Yzl4mRPdEopR" version="22.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1384" dy="512" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="533" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -242,7 +242,7 @@
           <mxGeometry x="640" y="2160" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FpBYcULCvsSnfkDTNXqE-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="2320" width="480" height="280" as="geometry" />
+          <mxGeometry x="600" y="2320" width="480" height="360" as="geometry" />
         </mxCell>
         <mxCell id="FpBYcULCvsSnfkDTNXqE-1" value="模型训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="2320" width="120" height="80" as="geometry" />
@@ -259,14 +259,23 @@
         <mxCell id="FpBYcULCvsSnfkDTNXqE-3" value="UNet网络模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="760" y="2320" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FpBYcULCvsSnfkDTNXqE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-4" value="ASPP模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="2440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FpBYcULCvsSnfkDTNXqE-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-6" value="S-E模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="940" y="2440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FpBYcULCvsSnfkDTNXqE-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-9" value="S-C模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="2440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FpBYcULCvsSnfkDTNXqE-12" target="FpBYcULCvsSnfkDTNXqE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-12" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="2520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="2550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
