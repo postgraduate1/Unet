@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T02:57:49.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="Jre5VP38Yzl4mRPdEopR" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T03:05:15.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="tvYEmUpmQWHquT-t-eWX" version="22.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="949" dy="533" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -272,10 +272,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FpBYcULCvsSnfkDTNXqE-12" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="2520" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="2530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FpBYcULCvsSnfkDTNXqE-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="780" y="2550" width="120" height="60" as="geometry" />
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FpBYcULCvsSnfkDTNXqE-14" target="FpBYcULCvsSnfkDTNXqE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-14" value="效果检验" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FpBYcULCvsSnfkDTNXqE-16" target="FpBYcULCvsSnfkDTNXqE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-16" value="参数调整" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="2670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FpBYcULCvsSnfkDTNXqE-16" target="FpBYcULCvsSnfkDTNXqE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="2705.12" as="sourcePoint" />
+            <mxPoint x="1220" y="2470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="2700" />
+              <mxPoint x="1100" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpBYcULCvsSnfkDTNXqE-20" value="改进UNet模型" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="2760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
