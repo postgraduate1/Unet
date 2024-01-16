@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T09:03:38.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gV_N3t3k6FV038t0_uRV" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:07:14.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TPb9rIRSqkxAhZu19sCL" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1087" dy="770" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1523" dy="770" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -299,14 +299,35 @@
         <mxCell id="F0Vdl2WAEmQol8R255dI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="850" y="930" width="170" height="95" as="geometry" />
         </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBX0AHVhpTmrUKh86Hex-1" target="UBX0AHVhpTmrUKh86Hex-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UBX0AHVhpTmrUKh86Hex-1" value="数据质量控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="1680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBX0AHVhpTmrUKh86Hex-2" target="UBX0AHVhpTmrUKh86Hex-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UBX0AHVhpTmrUKh86Hex-2" value="划分数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1520" y="1680" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UBX0AHVhpTmrUKh86Hex-3" value="数据曾庆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-3" value="数据增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1640" y="1680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBX0AHVhpTmrUKh86Hex-5" target="UBX0AHVhpTmrUKh86Hex-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-5" value="训练卷积神经网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1400" y="1800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBX0AHVhpTmrUKh86Hex-6" target="UBX0AHVhpTmrUKh86Hex-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-6" value="预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1520" y="1800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-7" value="精度评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1640" y="1800" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
