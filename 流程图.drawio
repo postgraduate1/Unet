@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T11:43:17.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AHsDzBGzrimwVRxNTFN1" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:03:38.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gV_N3t3k6FV038t0_uRV" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="902" dy="563" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="770" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -158,31 +158,28 @@
           <mxGeometry x="860" y="950" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="1440" width="480" height="200" as="geometry" />
+          <mxGeometry x="180" y="1430" width="480" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="8D0tll9PoDF_BB46CyJd-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;数据集构建&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="1440" width="120" height="80" as="geometry" />
+        <mxCell id="8D0tll9PoDF_BB46CyJd-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;数据预处理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1240" y="1440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-4" value="徐州市经开区影像下载" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="760" y="1440" width="120" height="60" as="geometry" />
+          <mxGeometry x="1500" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="600" y="1720" width="480" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="8D0tll9PoDF_BB46CyJd-6" value="数据集划分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="1720" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8D0tll9PoDF_BB46CyJd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.306;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8D0tll9PoDF_BB46CyJd-4" target="8D0tll9PoDF_BB46CyJd-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8D0tll9PoDF_BB46CyJd-6" value="数据集构建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1240" y="1640" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-8" value="影像预处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="680" y="1560" width="80" height="40" as="geometry" />
+          <mxGeometry x="1400" y="1520" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-9" value="影像裁剪" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="800" y="1560" width="80" height="40" as="geometry" />
+          <mxGeometry x="1520" y="1520" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-10" value="矢量化标注" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="920" y="1560" width="80" height="40" as="geometry" />
+          <mxGeometry x="1640" y="1520" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8D0tll9PoDF_BB46CyJd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8D0tll9PoDF_BB46CyJd-15" target="8D0tll9PoDF_BB46CyJd-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -299,8 +296,17 @@
         <mxCell id="FpBYcULCvsSnfkDTNXqE-20" value="改进UNet模型" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="880" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F0Vdl2WAEmQol8R255dI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="F0Vdl2WAEmQol8R255dI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="850" y="930" width="170" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-1" value="数据质量控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1400" y="1680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-2" value="划分数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1520" y="1680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBX0AHVhpTmrUKh86Hex-3" value="数据曾庆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1640" y="1680" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
